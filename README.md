@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [https://naveedmohiuddin.vercel.app/](https://naveedmohiuddin.vercel.app/).
 
 ## Customization
 
@@ -19,17 +19,6 @@ All content lives in **one file**: `src/data/portfolio-data.ts`
 - Update GitHub links in `PROJECTS` to point to specific repos
 - Add/remove skills, experience, projects as needed
 
-## Deploy
-
-### Vercel (recommended)
-```bash
-npx vercel
-```
-
-### Static Export (GitHub Pages / Netlify)
-```bash
-npm run build   # outputs to /out
-```
 
 The `next.config.js` is already set to `output: 'export'` for static hosting.
 
@@ -59,9 +48,3 @@ src/
     └── portfolio-data.ts  # ← All content lives here
 ```
 
-## Contact Form
-
-The contact form is currently visual-only. To make it functional, wire it to one of:
-- [Formspree](https://formspree.io)
-- [EmailJS](https://www.emailjs.com)
-- A Next.js API route (remove `output: 'export'` from next.config.js first)
