@@ -34,7 +34,7 @@ export default function Navbar() {
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           className="text-lg font-bold tracking-tight bg-gradient-to-r from-accent to-accent2 bg-clip-text text-transparent"
         >
-          NM
+          Naveed
         </a>
 
         {/* Desktop links */}
