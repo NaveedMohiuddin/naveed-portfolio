@@ -81,6 +81,58 @@ export const CERTIFICATIONS = [
   },
 ];
 
+// ═══════════════════════════════════════════════════════════
+// UPDATED EXPERIENCE — Replace the EXPERIENCE array in
+// src/data/portfolio-data.ts with this version
+//
+// Portfolio bullets are intentionally longer and more
+// detailed than resume bullets — this is where recruiters
+// come to learn more after the resume hooks them.
+// ═══════════════════════════════════════════════════════════
+
+// export const EXPERIENCE = [
+//   {
+//     role: "Data Engineer",
+//     company: "Benda Infotech",
+//     client: null,
+//     location: "Remote, US",
+//     dates: "Jul 2025 – Present",
+//     tech: [
+//       "AWS S3", "Glue", "Lambda", "Redshift",
+//       "Athena", "EventBridge", "PySpark", "Airflow",
+//       "SQL", "Python", "Parquet", "CI/CD", "CloudWatch", "SNS",
+//     ],
+//     bullets: [
+//       "Designed and built a fully serverless ETL pipeline using AWS S3, Lambda, and Glue that processes ~1M records daily with 99.9% reliability — replacing fragile EC2-based scripts that failed multiple times per week and required manual restarts",
+//       "Developed PySpark transformation jobs in AWS Glue with schema-on-read validation, business-key deduplication via window functions, and type standardization, reducing overall batch processing time by 40% through careful DPU sizing and join optimization",
+//       "Modeled dimensional star-schema datasets (fact and dimension tables) and loaded them into Amazon Redshift using idempotent delete-then-insert MERGE patterns, ensuring safe pipeline reruns without duplicates and improving dashboard query performance by 35%",
+//       "Orchestrated end-to-end data workflows using Apache Airflow DAGs with SLA monitoring, task-level retries with exponential backoff, and dependency management — reducing manual intervention by 60% and providing full pipeline visibility",
+//       "Optimized Athena ad-hoc analytics queries through partition pruning, Parquet columnar conversion with Snappy compression, and Glue Data Catalog integration for centralized schema management, cutting query execution costs by 30–40%",
+//       "Built CI/CD pipelines for Glue job deployments with automated record-count validation across pipeline layers, schema-drift detection with diff reporting, and SNS-to-Slack alerting — reducing release cycles from 2 days to hours while maintaining 99%+ data consistency",
+//     ],
+//   },
+//   {
+//     role: "Software Engineer (Data Engineering)",
+//     company: "Applied Information Sciences",
+//     client: "GEICO",
+//     location: "Hyderabad, India → Remote US",
+//     dates: "Feb 2022 – Jul 2023",
+//     tech: [
+//       "Azure Data Factory", "Databricks", "PySpark", "Delta Lake",
+//       "ADLS Gen2", "Synapse Analytics", "Kafka", "SQL",
+//       "Python", "Power BI", "Azure DevOps", "CI/CD",
+//     ],
+//     bullets: [
+//       "Engineered Azure Data Factory pipelines to ingest policy, claims, and CRM data (10M+ records) from SQL Server, Oracle, and CRM sources into ADLS Gen2, using incremental extraction based on modified timestamps and parameterized pipeline templates for reusability across source tables",
+//       "Built distributed PySpark transformation workflows in Azure Databricks following a medallion architecture — Bronze for raw ingestion, Silver for cleansed and standardized data, Gold for business-ready dimensional models — reducing overall runtime by 30% through auto-scaling clusters and partition optimization",
+//       "Implemented Delta Lake curated layers with SCD Type 2 dimension tables using MERGE logic to preserve full data history for compliance requirements, while reducing reconciliation issues by 25% through Delta's ACID transaction guarantees that eliminated partial writes and dirty reads",
+//       "Developed Kafka-based streaming workflows using Databricks Structured Streaming to process time-sensitive claims events in near real-time, replacing batch-only ingestion that had multi-hour latency and tuning consumer parallelism to handle peak-hour volume spikes",
+//       "Automated CI/CD deployment of ADF pipelines via Azure DevOps using ARM template exports, making releases repeatable and auditable across dev/test/prod environments and reducing deployment errors by 40% compared to previous manual JSON export-import process",
+//       "Delivered analytics-ready dimensional datasets to Azure Synapse Analytics with clean data models and documentation, improving reporting turnaround by 50% and supporting Power BI dashboards used by actuarial, underwriting, and business intelligence teams for daily decision-making",
+//     ],
+//   },
+// ];
+
 export const EXPERIENCE = [
   {
     role: "Data Engineer",

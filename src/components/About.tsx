@@ -7,9 +7,9 @@ export default function About() {
   return (
     <section id="about" className="max-w-6xl mx-auto px-6 py-24">
       <FadeIn>
-        <p className="text-[13px] font-semibold tracking-[2px] uppercase text-accent font-mono mb-2">
+        <h2 className="font-semibold tracking-[2px] uppercase text-accent font-mono mb-2">
           About Me
-        </p>
+        </h2>
         <h2 className="text-[clamp(28px,4vw,40px)] font-bold tracking-tight mb-4">
           Engineer, not just a resume.
         </h2>

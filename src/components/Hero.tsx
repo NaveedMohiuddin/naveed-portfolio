@@ -62,10 +62,10 @@ export default function Hero() {
             <span className="text-cyan-400">$</span> naveed
             <span className="text-slate-500">.skills</span>
             <span className="text-indigo-400">(</span>
-            <span className="text-amber-400">&quot;PySpark&quot;</span>,{" "}
             <span className="text-amber-400">&quot;AWS&quot;</span>,{" "}
             <span className="text-amber-400">&quot;Azure&quot;</span>,{" "}
-            <span className="text-amber-400">&quot;Airflow&quot;</span>
+            <span className="text-amber-400">&quot;PySpark&quot;</span>,{" "}
+            <span className="text-amber-400">&quot;Databricks&quot;</span>
             <span className="text-indigo-400">)</span>
           </div>
 
