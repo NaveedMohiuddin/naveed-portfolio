@@ -6,9 +6,9 @@ export const PERSONAL = {
   name: "Naveed Mohiuddin",
   title: "Data Engineer",
   tagline: "Building scalable data systems and cloud-native platforms.",
-  location: "Chicago, Illinois",
+  location: "Seattle, WA",
   email: "naveedmohiuddin0311@gmail.com",
-  linkedin: "https://linkedin.com/in/naveed-mohiuddin-852021196",
+  linkedin: "https://www.linkedin.com/in/naveed-mohiuddin/",
   github: "https://github.com/NaveedMohiuddin",
   resumeUrl: "/Naveed_Resume.pdf", // ← Place your resume PDF in the /public folder with this name
   heroSummary:
@@ -205,6 +205,7 @@ export const PROJECTS = [
     tech: ["Apache Spark", "HDFS", "GCP Dataproc", "SQL", "Python"],
     github: "https://github.com/NaveedMohiuddin", // ← update to specific repo
   },
+  
 ];
 
 export const WHY_HIRE = [
