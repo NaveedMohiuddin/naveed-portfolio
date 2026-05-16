@@ -12,7 +12,7 @@ export const PERSONAL = {
   github: "https://github.com/NaveedMohiuddin",
   resumeUrl: "/Naveed_Resume.pdf", // ← Place your resume PDF in the /public folder with this name
   heroSummary:
-    "Hands-on experience in production ETL, distributed processing, and data modeling across AWS and Azure — backed by two AWS certifications and a Master's in Computer Science.",
+    "Hands-on experience in production ETL, distributed processing, and data modeling across AWS and Azure backed by two AWS certifications and a Master's in Computer Science.",
 };
 
 export const NAV_ITEMS = [
@@ -211,7 +211,7 @@ export const PROJECTS = [
 export const WHY_HIRE = [
   {
     title: "Production Engineering Experience",
-    desc: "Hands-on work building and supporting data systems at enterprise scale — not just tutorials or coursework.",
+    desc: "Hands-on work building and supporting data systems at enterprise scale not just tutorials or coursework.",
   },
   {
     title: "AWS Certified",

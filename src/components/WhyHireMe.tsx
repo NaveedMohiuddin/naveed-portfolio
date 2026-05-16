@@ -26,7 +26,7 @@ export default function WhyHireMe() {
           What I bring to your team.
         </h2>
         <p className="text-[17px] text-slate-400 max-w-xl leading-relaxed mb-12">
-          Not just skills on paper — here&apos;s why it translates to real value.
+          Not just skills on paper, here&apos;s why it translates to real value.
         </p>
       </FadeIn>
 
