@@ -102,7 +102,6 @@ export default function Hero() {
           {/* Stats */}
           <div className="flex flex-wrap gap-8 mt-8">
             {[
-              { val: "3+", label: "Years Experience" },
               { val: "2", label: "AWS Certifications" },
               { val: "MS", label: "Computer Science" },
               { val: "AWS + Azure", label: "Multi-Cloud" },

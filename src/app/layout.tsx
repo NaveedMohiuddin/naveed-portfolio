@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Naveed Mohiuddin | Data Engineer — AWS Certified",
     description:
-      "Data Engineer building scalable cloud-native data platforms across AWS and Azure. Two AWS certifications, 3+ years experience, MS in Computer Science.",
+      "Data Engineer building scalable cloud-native data platforms across AWS and Azure. Two AWS certifications, MS in Computer Science.",
     type: "website",
     locale: "en_US",
     // url: "https://naveedmohiuddin.com", // ← update with your domain

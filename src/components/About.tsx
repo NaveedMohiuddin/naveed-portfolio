@@ -18,10 +18,10 @@ export default function About() {
         <div className="max-w-3xl space-y-5">
           <p className="text-base leading-7 text-slate-400">
             I&apos;m a Data Engineer with experience building cloud-native data platforms that
-            serve real business needs from policy and claims pipelines at GEICO to serverless
-            lakehouse architectures on AWS. My work sits at the intersection of software
-            engineering and data infrastructure: I design ETL systems, optimize distributed
-            processing, model dimensional data, and automate everything I can.
+            serve real business needs from relational and API source systems in insurance/financial
+            data domains to serverless lakehouse architectures on AWS. My work sits at the
+            intersection of software engineering and data infrastructure: I design ETL systems,
+            optimize distributed processing, model dimensional data, and automate everything I can.
           </p>
           <p className="text-base leading-7 text-slate-400">
             I hold a Master&apos;s in Computer Science from Illinois Institute of Technology and
